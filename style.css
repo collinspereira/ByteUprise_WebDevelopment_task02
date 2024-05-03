@@ -1,0 +1,46 @@
+body {
+  background-color: lavenderblush;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: lavender;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.featured {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cupcake {
+  background-color: white;
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.cupcake img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+footer {
+  background-color: #f8e9d3;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
